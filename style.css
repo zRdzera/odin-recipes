@@ -1,0 +1,79 @@
+body {
+    width: 600px;
+    margin-left: 15px;
+    background-color: rgb(170, 247, 63);
+    font: 16px Arial;
+}
+
+.recipesSection {
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(0, 97, 182)   
+}
+
+.recipesImg {
+    width: 350px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+    border-radius: 10px;  
+}
+
+.indexImg {
+    display: block;
+    width: 350px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexh2 {
+    text-align: center;
+}
+
+ul.indexList{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.indexList li {
+    margin-bottom: 20px;
+}
+
+.indexList a {
+    color: white;
+    text-decoration: none;
+}
+
+.indexList a:hover {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h1, h2, h3 {
+    color: greenyellow;
+}
+
+li, p {
+    color: white;
+}
+
+.goBack {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: greenyellow;
+}
+
+.goBack:hover {
+    font-size: 20px;
+    font-style: italic;
+}
